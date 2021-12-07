@@ -1,5 +1,4 @@
 require("@nomiclabs/hardhat-waffle");
-// require("@nomiclabs/hardhat-solhint");
 require("@nomiclabs/hardhat-ethers");
 
 const fs = require('fs');
@@ -53,7 +52,7 @@ module.exports = {
     }
   },
   solidity: {
-    version: "0.5.16",
+    version: "0.6.6",
     settings: {
       optimizer: {
         enabled: true,
