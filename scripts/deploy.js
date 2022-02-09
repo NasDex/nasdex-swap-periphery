@@ -3,8 +3,8 @@ const { expect } = require("chai");
 const env = require("hardhat");
 const { ethers } = require("hardhat");
 
-const FACTORY = "0x508B1F76B67381D8BF3aD24E4BFdC7109B03d7a2";
-const WETH = "0x22104669DA1a0a1B3631EdDee6b1B4d41c521F83";
+const FACTORY = "0xa07dD2e9fa20C14C45A28978041b4c64e45f7f97";
+const WETH = "0x0d500B1d8E8eF31E21C99d1Db9A6444d3ADf1270";
 
 async function main() {
     [deployer] = await ethers.getSigners();

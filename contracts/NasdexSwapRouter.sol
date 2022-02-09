@@ -696,7 +696,7 @@ library NasdexSwapLibrary {
                 hex'ff',
                 factory,
                 keccak256(abi.encodePacked(token0, token1)),
-                hex'b2744a8dbbbd8c726ed99d085346fca783b86e0f09049a087d309cc2889df5cf' // init code hash
+                hex'ebc2507abae8c3afe298cc2a0c83484616f81478c81800883310facd501e5afa' // init code hash
             ))));
     }
 
